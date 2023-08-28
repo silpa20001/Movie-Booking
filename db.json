@@ -1,0 +1,38 @@
+{
+  "user": [
+    {
+      "username": "silpa",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "silpa@gmail.com",
+      "mobileNumber": "987",
+      "address": "kodur",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "tharun",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "tharun@gmail.com",
+      "mobileNumber": "987",
+      "address": "gudur",
+      "role": "user",
+      "id": 2
+    }
+  ],
+  "movies": [
+    {
+      "title": "kushi",
+      "language": "telugu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBdA520Hsf-marHTQyfjTQBe6tcNFzucuSJs-aBnzZAhybSPqPnSy87HkAxZd-Xcatdcz5C60jFcvSFVltd623eo0hhGXdblo8BvVDIvkChUIuFX3mTXV8JpjIxxQ3oua8DqVHbY1aXRe-ewZ9n_Rfxdm0h8kosoZG8nmoFxBBBliHeiU0XmX6blSDdw/s750/kushi_poster01.jpg",
+      "id": 1
+    },
+    {
+      "title": "jailer",
+      "language": "tamil",
+      "image": "https://th.bing.com/th/id/OIP.A7vIC2n61yCNYydYCyhZaQHaLk?pid=ImgDet&rs=1",
+      "id": 2
+    }
+  ]
+}
