@@ -1,0 +1,67 @@
+/* register.css */
+
+/* Use the same styles as the login modal for the background */
+.register-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
+  /* Use a semi-transparent background color */
+  z-index: 999;
+  /* Ensure it's above other content */
+}
+
+/* Add scrollbar styles to .register-modal */
+.register-modal {
+  /* Your existing styles */
+  background-color: #ffffffec;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-height: 90%;
+  width: 80%;
+  font-size: 14px;
+  overflow-y: auto;
+
+  /* Scrollbar Styles */
+  scrollbar-width: thin;
+  /* For Firefox */
+  scrollbar-color: #a8d8e4b4 #f0f0f0;
+  /* For Firefox */
+}
+
+.register-modal::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.register-modal::-webkit-scrollbar-thumb {
+  background-color: #333;
+  /* Color of the thumb */
+  border-radius: 4px;
+  /* Rounded corners of the thumb */
+}
+
+.register-modal::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Color of the track */
+}
+
+
+.close-btn {
+  position: relative;
+  top: 30px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.register-content .mb-3 {
+  margin-bottom: 8px;
+}

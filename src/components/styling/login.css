@@ -1,0 +1,38 @@
+/* Styling for the login modal */
+.login-modal {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .login-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative; /* Add relative positioning for the close button */
+  }
+  
+  /* Styling for the close button (X mark) */
+  .close-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+    position: absolute; /* Position the close button */
+    top: 10px; /* Adjust top position for spacing */
+    right: 10px; /* Adjust right position for spacing */
+  }
+  
+  .close-btn:hover {
+    color: darkred; /* Change color on hover */
+    font-weight: bold; /* Add bold font on hover for better visibility */
+  }
+  

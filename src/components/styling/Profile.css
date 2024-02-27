@@ -1,0 +1,56 @@
+/* Profile Sidebar Container */
+.profile-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px; /* Initially hidden */
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  /* Profile Sidebar Active State */
+  .profile-sidebar-active {
+    right: 0;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Close Button */
+  .profile-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Profile Body */
+  .profile-body {
+    padding: 20px;
+  }
+  
+  /* Profile Table */
+  .table {
+    margin-top: 20px;
+  }
+  
+  /* Profile Buttons */
+  .btn-primary {
+    margin-right: 10px;
+  }
+  
+  /* Other Page Styles */
+  /* ... */
+  

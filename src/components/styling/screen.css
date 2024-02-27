@@ -1,0 +1,137 @@
+.screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.selected {
+  background-color: #00ff00;
+  /* Green for selected seats */
+}
+
+.seats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00ff00;
+  /* Green outline */
+  margin: 2px;
+  cursor: pointer;
+}
+/* Add this CSS to place a gap between the 3rd and 4th columns */
+.seat:nth-child(5n) {
+  margin-right: 20px; /* Adjust the margin as needed to control the gap width */
+}
+
+/* Add this CSS to place a gap between the 6th and 7th rows (F and G rows) */
+.seat-row:nth-child(7) {
+  margin-bottom: 20px; /* Adjust the margin as needed to control the gap height */
+}
+
+
+/* .seat:nth-child(7n){
+  margin-right: 20px; 
+} */
+
+.seat:hover {
+  background-color: #00ff00;
+  /* Green on hover */
+}
+
+.available {
+  background-color: transparent;
+}
+
+.booked {
+  background-color: white;
+  /* Red for booked seats */
+}
+
+.screen {
+  background-color: #333;
+  color: white;
+  width: 250px;
+  height: 80px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pay-now {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.total-cost {
+  margin-top: 10px;
+  font-size: 18px;
+  color: red;
+}
+
+.cost-value {
+  font-weight: bold;
+}
+
+.seat {
+  /* Your existing seat styles */
+
+  /* Add this to make the seat label visible inside the box */
+  position: relative;
+}
+
+.seat-label {
+  /* Style for the seat label */
+  position: absolute;
+  top: 50%;
+  /* Vertically center the label */
+  left: 50%;
+  /* Horizontally center the label */
+  transform: translate(-50%, -50%);
+  /* Center the label within the seat */
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  color: black;
+  /* Set the text color to black or your desired color */
+}
+
+.left-side {
+  width: 30%;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.left-side h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.seat-price {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  z-index: 1; /* Ensures the label is on top of the seat */
+}
