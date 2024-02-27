@@ -1,38 +1,128 @@
 {
   "user": [
     {
-      "username": "silpa",
-      "password": "123",
-      "confirmPassword": "123",
-      "email": "silpa@gmail.com",
-      "mobileNumber": "987",
-      "address": "kodur",
-      "role": "admin",
-      "id": 1
-    },
-    {
       "username": "tharun",
       "password": "123",
       "confirmPassword": "123",
       "email": "tharun@gmail.com",
-      "mobileNumber": "987",
-      "address": "gudur",
+      "mobileNumber": "98754678",
+      "address": "Gudur",
       "role": "user",
+      "id": 1
+    },
+    {
+      "username": "silpa",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "vcbvndfgfhg",
+      "mobileNumber": "234",
+      "address": "sdfgh",
+      "role": "admin",
       "id": 2
+    },
+    {
+      "username": "silpa1",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "silpa@g.c",
+      "mobileNumber": "0987",
+      "address": "kodur",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "username": "tharun1",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "kjhgf",
+      "mobileNumber": "98765",
+      "address": "kjhgfd",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "dxfgchvbj",
+      "password": "98",
+      "confirmPassword": "98",
+      "email": "cvbn",
+      "mobileNumber": "876",
+      "address": "sdfg",
+      "role": "user",
+      "id": 5
     }
   ],
   "movies": [
     {
-      "title": "kushi",
-      "language": "telugu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBdA520Hsf-marHTQyfjTQBe6tcNFzucuSJs-aBnzZAhybSPqPnSy87HkAxZd-Xcatdcz5C60jFcvSFVltd623eo0hhGXdblo8BvVDIvkChUIuFX3mTXV8JpjIxxQ3oua8DqVHbY1aXRe-ewZ9n_Rfxdm0h8kosoZG8nmoFxBBBliHeiU0XmX6blSDdw/s750/kushi_poster01.jpg",
-      "id": 1
-    },
-    {
-      "title": "jailer",
-      "language": "tamil",
+      "title": "Jailer",
+      "language": "Tamil",
       "image": "https://th.bing.com/th/id/OIP.A7vIC2n61yCNYydYCyhZaQHaLk?pid=ImgDet&rs=1",
       "id": 2
+    },
+    {
+      "title": "Kushi",
+      "language": "Telugu",
+      "image": "https://th.bing.com/th/id/OIP.9hDh3YiLbELazAlqJz7yfQHaEM?pid=ImgDet&rs=1",
+      "id": 3
+    },
+    {
+      "title": "Samajavaragamana",
+      "language": "Telugu",
+      "image": "https://th.bing.com/th/id/OIP.bvC7mY-f_NZVzTWf06fwoAAAAA?pid=ImgDet&rs=1",
+      "id": 5
+    },
+    {
+      "title": "Baby",
+      "language": "Telugu",
+      "image": "https://th.bing.com/th/id/OIP.smxRamby6MRSNH9vnKktZwHaEK?pid=ImgDet&rs=1",
+      "id": 6
+    },
+    {
+      "title": "Jawan",
+      "language": "Telugu",
+      "image": "https://assets.gadgets360cdn.com/pricee/assets/product/202206/Jawan-poster_1655912386.jpg",
+      "id": 7
+    },
+    {
+      "title": "Mrs.shetty mr.polishetty",
+      "language": "Telugu",
+      "image": "https://th.bing.com/th/id/OIP.a7e27iksnI8twDfZa7L9cgHCGE?pid=ImgDet&rs=1",
+      "id": 8
+    },
+    {
+      "title": "Skandha",
+      "language": "Telugu",
+      "image": "https://th.bing.com/th/id/OIP.LejpTXfHWV9yEDZlzjEbFAAAAA?pid=ImgDet&rs=1",
+      "id": 9
+    },
+    {
+      "title": "Tillu 2",
+      "language": "Telugu",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjgzNzU5MmQtOWI3Yi00OWU2LWI0MmItNThjOTdlYzU0ZmNlXkEyXkFqcGdeQXVyMTIyMjMzODUx._V1_.jpg",
+      "id": 10
+    },
+    {
+      "title": "Chandramukhi 2",
+      "language": "Tamil",
+      "image": "https://th.bing.com/th/id/OIP.gQkg-81QPXLYK5U8hG-29gHaEK?w=319&h=180&c=7&r=0&o=5&pid=1.7",
+      "id": 11
+    },
+    {
+      "title": "Leo",
+      "language": "Telugu",
+      "image": "https://newsroompost.com/wp-content/uploads/2023/10/leo-1024x576.jpg",
+      "id": 12
+    },
+    {
+      "title": "Tiger  nageshwar rao",
+      "language": "Telugu",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTM0NTA2NDktNjQ3My00MWNjLTkxZDEtMTE0NmNmYWRkMjkyXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg",
+      "id": 13
+    },
+    {
+      "title": "Tiger",
+      "language": "Hindi",
+      "image": "https://i.ytimg.com/vi/COmjyZhvpMY/maxresdefault.jpg",
+      "id": 14
     }
   ]
 }
